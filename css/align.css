@@ -1,0 +1,51 @@
+.align {
+    display: contents;
+    grid-gap: 20px;
+}
+
+.align img {
+    width: 70%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.align img:hover {
+    transform: scale(1.1);
+}
+
+/* Media Queries for Responsive Design */
+
+/* Extra Small (xs) devices (portrait phones) */
+@media only screen and (max-width: 575px) {
+    .align {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Small (sm) devices (landscape phones) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .align {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Medium (md) devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .align {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Large (lg) devices (desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .align {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Extra Large (xl) devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+    .align {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

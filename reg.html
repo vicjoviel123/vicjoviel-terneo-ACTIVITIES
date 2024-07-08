@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/reg.js"></script>
+</head>
+    <div class="topnav">
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="socials.html">Social</a></li>
+        </ul>
+    </div>
+
+<body>
+
+    <center>
+        <form>
+
+            <b><h3>Register</h3></b>
+            <h2 id="error"></h2>
+            <br><br>
+            <label class="labelStyle">Username:</label>
+            <input type="text" id="username">
+            <br>
+            <center><label class="labelStyle">Name:</label></center>
+            <input type="text" id="name" />
+            <br>
+            <label class="labelStyle">Gender:</label>
+            <select name="Gender" id="gen">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+            <br><br>
+            </div>
+            <label class="labelStyle">Password:</label>
+            <input type="password" id="password">
+            <br><br>
+            <a class="forgot" onclick="forgot()" href="#">Forgot Password</a>
+            <br><br>
+            <button type="button" onclick="login()" class="btn">Register</button>
+            <br>
+            
+    </center>
+    <br><br>
+    </form>
+    <footer>
+        <p>&copy;Vic Joviel 2024</p>
+    </footer>
+</body>
+
+</html>

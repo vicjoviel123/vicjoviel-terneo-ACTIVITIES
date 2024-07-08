@@ -1,0 +1,161 @@
+.static {
+    position: static;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    top: 10%;
+    margin-left: 50px;
+    padding: 10px;
+    width: 30%;
+    height: 300px;
+    border: 5px solid palevioletred;
+}
+
+.relative {
+    margin-right: 95px;
+    margin-top: 105px;
+}
+
+.absolute a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.absolute a.active {
+    background-color: #04AA6D;
+    color: white;
+
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 40%;
+    top: 44%;
+    height: auto;
+    width: 55%;
+    background-color: red;
+    color: aqua;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid palevioletred;
+
+}
+
+.relative1 {
+    position: relative;
+    left: 34%;
+    width: 55%;
+    top: 49%;
+    height: auto;
+    background-color: seagreen;
+    color: aqua;
+    margin: 70px;
+    padding: 10px;
+    border: 5px solid palevioletred;
+}
+
+.relative2 {
+    position: relative;
+    left: 34%;
+    width: 55%;
+    top: 64%;
+    height: auto;
+    background-color: seagreen;
+    color: aqua;
+    margin: 70px;
+    padding: 10px;
+    border: 5px solid palevioletred;
+}
+
+.absolute3 {
+    position: absolute;
+    top: 79%;
+    left: 34%;
+    width: 55%;
+    height: auto;
+    background-color: seagreen;
+    color: aqua;
+    margin: 70px;
+    padding: 10px;
+    border: 5px solid palevioletred;
+}
+
+.relative4 {
+    position: relative;
+    left: 34%;
+    width: 55%;
+    top: 94%;
+    height: auto;
+    background-color: seagreen;
+    color: aqua;
+    margin: 70px;
+    padding: 10px;
+    border: 5px solid palevioletred;
+}
+
+.relative5 {
+    position: relative;
+    left: 34%;
+    width: 55%;
+    top: 109%;
+    height: auto;
+    background-color: seagreen;
+    color: aqua;
+    margin: 70px;
+    padding: 10px;
+    border: 5px solid palevioletred;
+}
+
+.relative6 {
+    position: relative;
+    left: 34%;
+    width: 55%;
+    top: 124%;
+    height: auto;
+    background-color: seagreen;
+    color: aqua;
+    margin: 70px;
+    padding: 10px;
+    border: 5px solid palevioletred;
+}
+
+.relative {
+    position: relative;
+    left: 34%;
+    width: 55%;
+    top: 139%;
+    height: auto;
+    background-color: seagreen;
+    color: aqua;
+    margin: 70px;
+    padding: 10px;
+    border: 5px solid palevioletred;
+}
+
+.static1 {
+    position: static;
+    background-color: salmon;
+    color: aqua;
+    margin: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    width: 50%;
+    height: 300px;
+    border: 5px solid palevioletred;
+
+}
+.relative {
+    margin-right: 95px;
+    margin-top: 105px;
+}
+
+.fixed {
+    position: fixed;
+    width: 96%;
+    background-color: white;
+    color: blue;
+    margin: 5px;
+    padding: 10px;
+
+}

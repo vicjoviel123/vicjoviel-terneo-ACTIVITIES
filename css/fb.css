@@ -1,0 +1,112 @@
+h3 {
+    left: 5px;
+    margin-top: 0%;
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    float: left;
+    padding: 12px;
+    font-size: 17px;
+    border-radius: 50%;
+    
+}
+
+p {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+    left: 20%;
+    display: flex;
+}
+
+.style {
+    background-color: #1F1717;
+}
+
+.static {
+    margin-right: 5%;
+    margin-top: 10%;
+
+}
+
+.static2 {
+    position: static;
+    background-color: transparent;
+    color: black;
+    margin: 2px;
+    margin-left: 1%;
+    padding: 10px;
+    border: 5px solid blue;
+    width: 53%;
+    height: 300px;
+    
+}
+
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 10%;
+    left: 2%;
+    color: black;
+    background-color: white;
+    width: 95%;
+    padding: 10px;
+    min-height: 12px;
+}
+
+.relative {
+    margin-right: 95px;
+    margin-top: 105px;
+
+}
+
+.relative2 {
+    position: relative;
+    left: 55%;
+    top: -3415px;
+    background-color: white;
+    color: black;
+    margin: 40px;
+    padding: 5px;
+    border: 5px solid black;
+    width: 47%;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 280px;
+    padding: 5px;
+    left: 54%;
+    width: 43%;
+    height: auto;
+    background-color: orangered;
+    color: black;
+    border: 5px solid whitesmoke;
+    margin-top: -4220px;
+    text-align:left ;
+}
+
+.relative3 {
+    position: relative;
+    left: 53%;
+    top: -3415px;
+    background-color: whitesmoke;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid black;
+    width: 43%;
+}
+
+.relative4 {
+
+    margin-top: 102px;
+
+}
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
